@@ -44,11 +44,14 @@ nav a{
     color: #474747;
 }
 .header{
-    background-color: #FFF8F3; ;
+    background-color: #FFF8F3;
+    background-image: url(/portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,5 +59,66 @@ nav a{
 }
 
 .profile-pic{
+    border: 2px solid orangered;
+    border-radius: 50%;
 width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-titile{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+}
+.banner-description{
+    display: flex;
+width: 585px;
+flex-direction: column;
+flex-shrink: 0;
+    color: var(--dark-03, #757575);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 30px;
+padding-top: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+}
+.section-title{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+
+.section-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
 }
